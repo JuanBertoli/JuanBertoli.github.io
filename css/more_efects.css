@@ -1,0 +1,123 @@
+
+
+.centerContent{
+    float: left right;
+    /*display: block;*/
+    text-align: center;
+    /*justify-content: center*/;
+    /*margin: auto;*/
+    /*border: 1px solid green;*/
+}
+
+
+.boxFooter{
+    margin: 0px;
+    text-align: right;
+    display: inline;
+    width: 30%;
+}
+
+
+.linkCurrent{
+    /*
+    box-shadow: inset 2px 2px 5px lightseagreen,
+                inset -2px -2px 5px lightseagreen;*/
+
+                
+    text-shadow: 2px 2px 4px skyblue,
+                -2px -2px 4px skyblue;
+}
+
+
+.txtNeon1{
+
+    /*
+    box-shadow: inset 2px 2px 5px lightseagreen,
+                inset -2px -2px 5px lightseagreen;*/
+
+    text-shadow:  2px 2px 4px springgreen,
+                 -2px -2px 4px springgreen;
+
+}
+
+
+.txtNeon2{
+
+    /*una sombra verdosa mas grande */
+
+    text-shadow:  2px 2px 30px springgreen,
+                 -2px -2px 30px springgreen;
+
+}
+
+
+.boxItems{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid #00ff00;*/
+    vertical-align: top;
+}
+
+.txtNoExpand{
+    max-width: min-content;
+    text-align: center;
+    margin: auto;
+}
+
+
+.marginSides1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.underline1{
+    border-bottom: 1px solid #a6e0fd;
+}
+
+
+.buttonShowContent{
+    float: left;
+    background-color: teal;
+    color: white;
+    border: 1px solid turquoise;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.imgIcon{
+    background-color: aqua;
+    max-width: 35px;
+}
+
+@media only screen and (max-width: 450px) {
+    .imgIcon{
+        width: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imgIcon{
+        width: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    /* solo cuando la pantalla es chica <= 400px entonces
+    las cajas de items "lenguajes y tal" se archican para que no se apilen de a uno*/
+    .boxItems{
+        width: 30%;
+        height: 30%;
+    }
+    
+    .marginSides1{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
