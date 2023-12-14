@@ -24,8 +24,8 @@
                 inset -2px -2px 5px lightseagreen;*/
 
                 
-    text-shadow: 2px 2px 4px skyblue,
-                -2px -2px 4px skyblue;
+    text-shadow: 2px 2px 4px green;,
+                -2px -2px 4px green;
 }
 
 
@@ -35,8 +35,8 @@
     box-shadow: inset 2px 2px 5px lightseagreen,
                 inset -2px -2px 5px lightseagreen;*/
 
-    text-shadow:  2px 2px 4px springgreen,
-                 -2px -2px 4px springgreen;
+    text-shadow:  2px 2px 4px green,
+                 -2px -2px 4px green;
 
 }
 
@@ -45,8 +45,8 @@
 
     /*una sombra verdosa mas grande */
 
-    text-shadow:  2px 2px 30px springgreen,
-                 -2px -2px 30px springgreen;
+    text-shadow:  2px 2px 30px green,
+                 -2px -2px 30px green;
 
 }
 
@@ -73,15 +73,15 @@
 
 
 .underline1{
-    border-bottom: 1px solid #a6e0fd;
+    border-bottom: 1px solid green;
 }
 
 
 .buttonShowContent{
     float: left;
-    background-color: teal;
-    color: white;
-    border: 1px solid turquoise;
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid green;
     border-radius: 5px;
     margin-right: 20px;
     text-align: center;
@@ -89,7 +89,7 @@
 
 
 .imgIcon{
-    background-color: aqua;
+    background-color: green;
     max-width: 35px;
 }
 

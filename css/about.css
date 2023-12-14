@@ -10,11 +10,11 @@
 */
 
 .imageMark{
-    border: 5px double lightseagreen;
+    border: 5px double green;
     border-radius: 50px;
     box-shadow: 
-            -4px -4px 10px springgreen,
-             4px  4px 10px springgreen;
+            -4px -4px 10px green,
+             4px  4px 10px green;
 }
 
 .heightSep{
