@@ -1,117 +1,288 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>El Planeta de los simios</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de estilos CSS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Acerca de mi </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+
+    <!-- css : -->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/about.css">
+
+    <link rel="stylesheet" href="css/more_efects.css">
+
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />-->
+
+
 </head>
 <body>
-    <header>
-        <h1>El Planeta de los simios</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Películas</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+<a name="arriba"></a>
+
+<header>
+    <img src="images/logon1.png" alt="img logo" class="img_logon" width="300px" height="120px">
+    
+    
+</header>
+
+
+
+<nav class="navbar_container">
+    <ul class="navbar_ul">
+        <li>
+            <a class="navbar_link linkCurrent" href="/">Acerca de mi</a>
+        </li>
+        <!--<li><a class="navbar_link" href="proyects.html">Proyectos</a></li>-->
+        <li>
+            <a class="navbar_link" target="_blank" rel="noopener noreferrer"
+                href="https://github.com/LeonardoReichert">Mi Github</a>
+        </li>
+        <li> 
+            <button class="btnDebugDevs" id="btnDebugDevs">{devs}</button>
+        </li>
+    </ul>
+</nav>
+
+<section class="section_content">
+
+    <!-- Caja de debug : -->
+    <div id="debugDevBox" class="boxContainerTotal textMsg1 centerContent" style="display: none;">
+        
+        <div style="margin: 0px;">
+            <h4> Mode: Debug Developer </h4>
+            <h4 style="color: purple;"> Divs boxContainerTotal:</h4>
+            <p>width: 100%; border color: purple;</p>
+
+            <h4 style="color: yellow"> Divs boxContainerMedium:</h4>
+            <p>width: 50%; border color: yellow;</p>
+
+            <h4 style="color: green"> Divs boxItems:</h4>
+            <p>width,height: >= 30%; border color: green;</p>
+
+            <h4 style="color: #00FF80"> footer:</h4>
+            <p>width,height: >= 30%; border color: #00FF80;</p>
+        </div>
+    </div>
+
+    <!-- Contenido principal, titulo grande:  -->
+
+    <div class="boxContainerTotal heightSep centerContent">
+        
+            <h1 class="title1">Leonardo A. Reichert</h1>
+        
+    </div>
+
+    <div class="boxContainerMedium centerContent heightSep">
+
+        <img class="imageMark" src="images/perfil2.png" alt="Perfil face" width="60%">
+        
+        <p class="textMsg2 txtNeon1">{Python Programmer}</p>
+        <p class="txtSmall txtNeon1">Age: 28 years</p>
+    </div>
+
+    <div class="boxContainerMedium heightSep">
+
+        <div class="centerContent heightSep">
+            <p class="textMsg1">
+                Soy programador autodidacta en constante aprendizaje y conocimiento.
+            </p>
+            <p class="textMsg1">
+                Dispuesto a trabajar en proyectos similares a mis conocimientos
+                y también a aquellos que requieran aprendizaje.
+            </p>
+            <p class="textMsg1">
+                Estado: Especializando mi conocimiento.
+            </p>
+        </div>
+        
+    </div>
+   
+
+    <div class="boxContainerTotal">
+    
+        <div class="marginSides1">
+            <h2 class="subtitle1 underline1 heightSep">Skills</h2>
+        </div>
+
+        <div class="centerContent">
+            <div class="textMsg3">
+                <div class="boxItems">
+                    <img src="images/python.png" alt="python logo" width="100%" style="margin-bottom: 10px">
+                    <p class="txtNoExpand">Python</p>
+                </div>
+                <div class="boxItems">
+                    <img src="images/djangologo.png" alt="django logo 2" width="100%" style="margin-bottom: 10px">
+                    <p class="txtNoExpand">Django</p>
+                </div>
+                <div class="boxItems">
+                    <img src="images/sql-file.png" alt="sql logo" width="100%" style="margin-bottom: 10px">
+                    <p class="txtNoExpand">SQL</p>
+                </div>
+                <div class="boxItems">
+                    <img src="images/c.png" alt="c logo" width="100%" style="margin-bottom: 10px">
+                    <p class="txtNoExpand">C</p>
+                </div>
+                <div class="boxItems">
+                    <img src="images/html-file.png" alt="web logo" width="100%" style="margin-bottom: 10px">
+                    <p class="txtNoExpand">HTML, CSS, JS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Experiencia laboral: -->
+    <div class="boxContainerTotal heightSep">
+
+        <div class="marginSides1">
+            <h2 class="subtitle1 heightSep underline1">
+                Experiencia laboral en Programación
+            </h2>
+
+            <!-- contenido: -->
+            <p class="textMsg1">
+                No cuento con experiencia formal, pero llevo años practicando el lenguaje Python y algo de otros.
+            </p>
+            <p class="textMsg1">
+                He hecho varios proyectos personales, algunos los tengo publicados en
+                <a class="textMsg1" class="navbar_link" target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/LeonardoReichert">Github</a>, y actualmente me encuentro dispuesto para mi primero empleo programando,
+                        estoy enfocado en mejorar y especializarme en mis skills backend.
+            </p>
+                
+            <!--<img src="test.png" alt="temporaltest" width="50%">-->
+        
+        </div>
+            
+    </div>    
+
+
+    <!-- Educacion : -->
+    <div class="boxContainerTotal">
+
+        <div class="marginSides1">
+            <h2 class="subtitle1 heightSep underline1">
+                Educaciones formales
+            </h2>
+
+            <!-- contenido: -->
+            <ul class="textMsg1">
+                <li style="padding-bottom:8px">
+                    Programa Informatorio: Programación web con
+                    Python y Django, Bases de Datos con SQL Server.
+                    Incluye proyecto web blog terminado.
+                </li>
+                <li>
+                    Argentina Programa - Ticmas: Primeros pasos del desarrollo Frontend.
+                </li>
             </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Últimas noticias</h2>
-            <article>
-                <h3>Título de la noticia</h3>
-                <p>Descripción breve de la noticia</p>
-                <a href="#">Leer más</a>
-            </article>
-            <!-- Más artículos -->
-        </section>
+                    
+                <!--<img src="test.png" alt="temporaltest" width="50%">-->
+        </div>
+            
+    </div>    
 
-        <section>
-            <h2>Reseñas</h2>
-            <article>
-                <h3>Reseña de la película</h3>
-                <p>Texto de la reseña</p>
-                <a href="#">Ver más reseñas</a>
-            </article>
-            <!-- Más reseñas -->
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 El Planeta de los simios</p>
-    </footer>
+
+
+    <!-- Datos personales: -->
+    <div class="boxContainerTotal heightSep">
+
+        <a name="datos"></a>
+
+        <div class="marginSides1">
+            <h2 class="subtitle1 heightSep underline1">
+                <button id="btnShowPInfo" class="buttonShowContent textMsg1">
+                    Mostrar
+                </button>
+                Datos personales y Contacto
+            </h2>
+
+            <!-- contenido: -->
+            <div id="personalInfo" class="boxContainerTotal" style="display: none">
+                <div class="boxContainerMedium">
+                    <p class="textMsg1">
+                        Nombre: Leonardo A. Reichert
+                    </p> 
+                    <p class="textMsg1">
+                        Edad: 27
+                    </p> 
+                    <p class="textMsg1">
+                        Email: <span id="mymail"class="textMsg1">leoreichert5000@gmail.com</span>
+                        <span id="btnCopyMail" class="material-symbols-outlined"
+                                        onclick="copy('mymail', 'btnCopyMail')">
+                            content_copy
+                        </span>
+                    </p>
+
+                    <p class="textMsg1">
+                        Enviar un Gmail:
+                        <a class="textMsg1" target="_blank"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=leoreichert5000@gmail.com&body="> 
+                             Aquí
+                        </a>
+                    </p>
+                </div>
+
+                <div class="boxContainerMedium">
+                    <p class="textMsg1">
+                        Pais: Argentina
+                    </p>
+                    <p class="textMsg1">
+                        Idioma: Español, Ingles basico (aprendiendo)
+                    </p>
+                </div>
+                    
+                <!--<img src="test.png" alt="temporaltest" width="50%">-->
+            </div>
+        </div>
+            
+    </div>    
+
+</section>
+
+
+
+<footer class="centerContent">
+        <p class="footerTxt">(C) Leonardo A. Reichert 2023</p>
+        
+        <address style="display: inline; margin: 0; padding: 0;">
+            <a class="footerTxt" href="mailto:leoreichert5000@gmail.com"> 
+                E-mail
+            </a>
+        </address>
+        
+        <a class="footerTxt" href="#arriba">
+            Volver Arriba
+        </a>
+</footer>
+
+<script src="js/debugboxs.js"></script>
+<script src="js/dinamics.js"></script>
+
 </body>
-</html>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: #333;
-}
 
-/* Estilos del encabezado */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
 
-h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Estilos del contenido principal */
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-article {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-article h3 {
-    margin-top: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos del pie de página */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
